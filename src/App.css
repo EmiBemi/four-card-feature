@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  background-color: #afbfdd;
+  background-color: hsl(0, 0%, 98%);
   height: 100%;
   width: 100%;
-  position: fixed;
 }
