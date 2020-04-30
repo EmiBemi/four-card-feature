@@ -3,13 +3,20 @@
 .card {
     background-color: hsl(0, 0%, 98%);
     height: 250px;
-    width: 360px;
+    width: 320px;
     font-family: 'Poppins', sans-serif;
     border-radius: 8px;
-    margin: 1rem;
     box-shadow: 0px 15px 25px 5px rgba(192,193,204,0.5);
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin-bottom: 3rem;
+    border-top-style: solid;
+    border-width: 5px;
+}
+
+@media (min-width: 400px) {
+    .card {
+        width: 360px;
+    }
 }
 
 .card-title {
@@ -22,7 +29,7 @@
 .card-paragraph {
     font-size: 15px;
     color: hsl(229, 6%, 66%);
-    padding: 0 0 0 1.5rem;
+    padding: 0 1.5rem;
     text-align: left;
 }
 
@@ -32,25 +39,17 @@
 }
 
 #blue {
-    border-top-style: solid;
     color: hsl(212, 86%, 64%);
-    border-width: 5px;
 }
 
 #red {
-    border-top-style: solid;
     color: hsl(0, 78%, 62%);
-    border-width: 5px;
 }
 
 #yellow {
-    border-top-style: solid;
     color: hsl(34, 97%, 64%);
-    border-width: 5px;
 }
 
 #cyan {
-    border-top-style: solid;
     color: hsl(180, 62%, 55%);
-    border-width: 5px;
 }

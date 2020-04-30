@@ -1,6 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
 .App {
   text-align: center;
   background-color: hsl(0, 0%, 98%);
-  height: 100%;
-  width: 100%;
+  min-height: 100vh;
+}
+
+p.header {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  padding: 1.5rem;
+  color: hsl(234, 12%, 34%);
+  margin: auto;
+}
+
+@media (min-width: 400px) {
+  p.header {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .header {
+    padding: 2rem;
+    width: 45%;
+  }
+}
+
+#header-title {
+  font-weight: 200;
+  font-size: 35px;
+}
+
+#header-title-bold {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 0;
+}
+
+#header-subtitle {
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.card-container {
+  margin: auto;
+}
+
+
+@media (min-width: 400px) {
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .column {
+    float: left;
+    margin: 2rem;
+  }
 }
